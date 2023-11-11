@@ -30,6 +30,17 @@ aaaaaaack
 cccccccck
 kkkkkkkkk
 
+Input:
+
+huge
+
+Output:
+
+huge
+uuge
+ggge
+eeee
+
 Program:
 #include <stdio.h>
 #include <string.h>
