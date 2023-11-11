@@ -21,7 +21,39 @@ skillrack
 Output:
 
 skillrack
-
 kkillrack
-
 iiillrack
+lllllrack
+lllllrack
+rrrrrrack
+aaaaaaack
+cccccccck
+kkkkkkkkk
+
+Program:
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str[101];
+
+    // Accepting the input string
+    printf("Enter the string: ");
+    scanf("%s", str);
+
+    int len = strlen(str);
+
+    // Printing the desired pattern
+    for (int i = 0; i < len; i++) {
+        for(int k=0;k<i;k++)
+        {
+            printf("%c", str[i]);
+        }
+        for (int j = i; j < len; j++) {
+            printf("%c", str[j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
