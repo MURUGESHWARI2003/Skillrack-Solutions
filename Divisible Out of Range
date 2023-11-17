@@ -1,5 +1,4 @@
 The program must accept three integers X, Y and Z as the input. The program must find and print the smallest positive integer N based on the following conditions.
-
 - N is divisible by Z.
 -N is not equal to any of the integers from X to Y (where X < Y.
 
